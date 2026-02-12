@@ -6,7 +6,7 @@ export default function ValentinePage() {
   const [yesScale, setYesScale] = useState(1);
   const [isAccepted, setIsAccepted] = useState(false);
 
-  let imagePath = `/src/Images/cat${count}.png`;
+  let imagePath = `/Images/cat${count}.png`;
 
   useEffect(() => {
     switch (count) {
