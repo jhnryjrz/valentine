@@ -35,7 +35,7 @@ export default function ValentinePage() {
   if (isAccepted){
     return (
       <div className="flex h-screen flex-col items-center justify-center bg-pink-200 text-center">
-        <img src="Images/cat7.png" className="w-[15rem]"/>
+        <img src="/Images/cat7.png" className="w-[15rem]"/>
         <h1 className="text-5xl font-bold text-pink-600">YAY! ❤️</h1>
         <p className="mt-4 text-gray-600">See you on the 14th!</p>
       </div>
